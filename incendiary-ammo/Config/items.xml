@@ -1,0 +1,40 @@
+<configs>
+<append xpath="/items">
+
+	<item name="ammo762mmBulletIncendiary">
+		<property name="Extends" value="ammo762mmBulletBall"/>
+		<property name="Tags" value="ammo762mm"/>
+		<property name="CustomIcon" value="ammo762mmBulletBall"/>
+		<property name="CustomIconTint" value="FF9999"/>
+		<property name="DisplayType" value="ammoBulletHP"/>
+		<property name="EconomicValue" value="16"/>
+		<property name="TraderStageTemplate" value="ammoTier3"/>
+		<property name="DescriptionKey" value="ammoHiPowerGroupDesc"/>
+		<property name="UnlockedBy" value="perkSniperHPAmmo"/> <!-- BOOK_PERK -->
+		
+		<effect_group name="ammo762mmBulletIncendiary" tiered="false">
+			<passive_effect name="EntityDamage" operation="base_set" value="52" tags="perkDeadEye,perkMachineGunner"/>
+			<passive_effect name="EntityDamage" operation="base_add" value="-1.5">
+				<requirement name="ItemHasTags" tags="perkMachineGunner"/>
+			</passive_effect>
+			<passive_effect name="BlockDamage" operation="base_set" value="9" tags="perkDeadEye,perkMachineGunner"/>
+			<passive_effect name="BlockDamage" operation="base_add" value="17" tags="barrelExplosive"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+			
+			<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="14">
+				<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="0"/></triggered_effect>
+			<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="15">
+				<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
+
+			<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffBurningFlamingArrow">
+				<requirement name="CVarCompare" target="other" cvar="_underwater" operation="LT" value="0.3"/>
+			</triggered_effect>
+
+			<display_value name="dEntityDamageFire" value="150"/>
+			<display_value name="dDuration" value="15"/>
+		</effect_group>
+	</item>
+
+</append>
+</configs>

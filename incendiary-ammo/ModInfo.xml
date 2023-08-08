@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <Name value="Incendiary_Ammunition" />
+  <DisplayName value="Incendiary Ammunition" />
+  <Description value="Add incendiary ammunition to the game, allowing the player to light zombies on fire." />
+  <Author value="Whackit1" />
+  <Version value="21.0.0" compat="A21" />
+  <Website value="https://github.com/DonovanMods/donovan-7d2d-modlets/tree/experimental/donovan-betterpowertools" />
+</xml>

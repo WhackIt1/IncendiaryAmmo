@@ -1,0 +1,7 @@
+Key,english
+ammo44MagnumBulletIncendiary,".44 Magnum Round, Incendiary (Ammo)"
+ammo9mmBulletIncendiary,"9mm Round, Incendiary (Ammo)"
+ammo762mmBulletIncendiary,"7.62mm Round, Incendiary (Ammo)"
+ammoIncendiaryCasedGroupDesc,Incendiary-cased ammunition set enemies on fire.
+resourceBulletCasingIncendiary,"Bullet Casing, Incendiary"
+resourceBulletCasingIncendiaryDesc,Incendiary bullet casings are cheaper but cause more wear on the barrel.
