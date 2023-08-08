@@ -1,5 +1,5 @@
-# Donovan BetterPowertools
+# Incendiary Ammo
 
-## 7 Days 2 Die Modlet
+## 7 Days to Die Mod
 
-Makes the chainsaw, auger, and nailgun way more useful.
+Adds incendiary ammo options for weapons.
