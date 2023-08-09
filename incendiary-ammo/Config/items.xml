@@ -56,7 +56,7 @@
 	</item>
 	
 	<item name="ammo44MagnumBulletIncendiary">
-		<property name="Extends" value="ammo44MagnumBall"/>
+		<property name="Extends" value="ammo44MagnumBulletBall"/>
 		<property name="Tags" value="ammo9mm"/>
 		<property name="CustomIcon" value="ammo44MagnumHP"/>
 		<property name="CustomIconTint" value="FF9999"/>
