@@ -16,7 +16,7 @@
 
 	<item name="ammoShotgunShellIncendiary">
 		<property name="Extends" value="ammoShotgunShell"/>
-		<property name="Tags" value="ammo9mm"/>
+		<property name="Tags" value="ammo,shotgun,ammoShells"/>
 		<property name="CustomIcon" value="ammoShotgunShell"/>
 		<property name="CustomIconTint" value="FF9999"/>
 		<property name="DisplayType" value="ammoBulletIncendiary"/>
@@ -57,7 +57,7 @@
 	
 	<item name="ammo44MagnumBulletIncendiary">
 		<property name="Extends" value="ammo44MagnumBulletBall"/>
-		<property name="Tags" value="ammo9mm"/>
+		<property name="Tags" value="ammo44Mag"/>
 		<property name="CustomIcon" value="ammo44MagnumHP"/>
 		<property name="CustomIconTint" value="FF9999"/>
 		<property name="DisplayType" value="ammoBulletIncendiary"/>

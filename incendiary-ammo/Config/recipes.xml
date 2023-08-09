@@ -10,7 +10,7 @@
 			<ingredient name="resourceBuckshot" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
 			<ingredient name="resourcePhosphorusPowder" count="1"/>
-			<ingredient name="resourceScrapPolymer" count="1"/>
+			<ingredient name="resourceScrapPolymers" count="1"/>
 		</recipe>
 		
 		<recipe name="ammo9mmBulletIncendiary" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
