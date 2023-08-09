@@ -16,10 +16,10 @@
 		
 		<item name="resourcePhosphorusPowderBundle">
 			<property name="Extends" value="resourceRockSmallBundle"/>
-			<property name="CustomIcon" value="resourceGunPowder"/>
+			<property name="CustomIcon" value="resourcePhosphorusPowder"/>
 			<property name="UnlockedBy" value="craftingExplosives"/><!-- perkDemolitionsExpert -->
 			<property class="Action0">
-				<property name="Create_item" value="resourceGunPowder"/>
+				<property name="Create_item" value="resourcePhosphorusPowder"/>
 				<property name="Create_item_count" value="1000"/>
 			</property>
 			<property name="Group" value="Resources,Chemicals,CFChemicals"/>

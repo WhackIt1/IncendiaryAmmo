@@ -9,4 +9,5 @@ ammo762mmBulletIncendiary,"7.62mm Round, Incendiary (Ammo)"
 ammoBundle762mmBulletIncendiary,Box of Incendiary 7.62mm Ammo (100)
 ammoIncendiaryGroupDesc,Incendiary ammunition sets enemies on fire
 resourcePhosphorusPowder,"Phosphorus Powder"
+resourcePhosphorusPowderBundle,"Bundle of Phosphorus Powder (1000)"
 resourcePhosphorusPowderDesc,Phosphorus Powder used in the manufacturing of incendiary rounds.

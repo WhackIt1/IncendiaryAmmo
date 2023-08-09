@@ -1,7 +1,11 @@
-<khaine>
-	<!-- Adding steel ammo to approprite book perk so it can be unlocked -->
+<configs>
+	<!-- Adding incendiary ammo to HP/Breaching Slug book perk so it can be unlocked -->
 	<append xpath="/progression/perks/book[@name='perkShotgunMessiahBreachingSlugs']/effect_group/passive_effect[@level='1']/@tags">,ammoShotgunShellIncendiary</append>
 	<append xpath="/progression/perks/book[@name='perkPistolPeteHPAmmo']/effect_group/passive_effect[@level='1']/@tags">,ammo9mmBulletIncendiary</append>
 	<append xpath="/progression/perks/book[@name='perkEnforcerHPAmmo']/effect_group/passive_effect[@level='1']/@tags">,ammo44MagnumBulletIncendiary</append>
 	<append xpath="/progression/perks/book[@name='perkSniperHPAmmo']/effect_group/passive_effect[@level='1']/@tags">,ammo762mmBulletIncendiary</append>
-</khaine>
+	<append xpath="/progression/perks/book[@name='perkShotgunMessiahComplete']/effect_group/passive_effect[@level='1']/@tags">,ammoBundleShotgunShellIncendiary</append>
+	<append xpath="/progression/perks/book[@name='perkPistolPeteComplete']/effect_group/passive_effect[@level='1']/@tags">,ammoBundle9mmBulletIncendiary</append>
+	<append xpath="/progression/perks/book[@name='perkEnforcerComplete']/effect_group/passive_effect[@level='1']/@tags">,ammoBundle44MagnumBulletIncendiary</append>
+	<append xpath="/progression/perks/book[@name='perkSniperComplete']/effect_group/passive_effect[@level='1']/@tags">,ammoBundle762mmBulletIncendiary</append>
+</configs>
