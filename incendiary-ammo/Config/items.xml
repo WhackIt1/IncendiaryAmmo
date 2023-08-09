@@ -22,6 +22,7 @@
 			<property name="DisplayType" value="ammoBulletIncendiary"/>
 			<property name="EconomicValue" value="12"/>
 			<property name="TraderStageTemplate" value="ammoTier3"/>
+			<property name="Damage_type" value="Heat"/>
 			<property name="DescriptionKey" value="ammoIncendiaryGroupDesc"/>
 			<property name="UnlockedBy" value="perkShotgunMessiahBreachingSlugs"/> <!-- BOOK_PERK -->
 			
@@ -41,17 +42,17 @@
 				<passive_effect name="SpreadMultiplierRunning" operation="perc_add" value=".3" tags="perkBoomstick"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
 				
-				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="16">
+				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="14">
 					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="0"/></triggered_effect>
-				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="17">
+				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="15">
 					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
 
 				<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffBurningFlamingArrow">
 					<requirement name="CVarCompare" target="other" cvar="_underwater" operation="LT" value="0.3"/>
 				</triggered_effect>
 
-				<display_value name="dEntityDamageFire" value="150"/>
-				<display_value name="dDuration" value="15"/>
+					<display_value name="dEntityDamageFire" value="120"/>
+				<display_value name="dDuration" value="14"/>
 			</effect_group>
 		</item>
 		
@@ -63,6 +64,7 @@
 			<property name="DisplayType" value="ammoBulletIncendiary"/>
 			<property name="EconomicValue" value="12"/>
 			<property name="TraderStageTemplate" value="ammoTier3"/>
+			<property name="Damage_type" value="Heat"/>
 			<property name="DescriptionKey" value="ammoIncendiaryGroupDesc"/>
 			<property name="UnlockedBy" value="perkPistolPeteHPAmmo"/> <!-- BOOK_PERK -->
 			
@@ -76,17 +78,17 @@
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
 				
-				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="16">
+				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="14">
 					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="0"/></triggered_effect>
-				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="17">
+				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="15">
 					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
 
 				<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffBurningFlamingArrow">
 					<requirement name="CVarCompare" target="other" cvar="_underwater" operation="LT" value="0.3"/>
 				</triggered_effect>
 
-				<display_value name="dEntityDamageFire" value="150"/>
-				<display_value name="dDuration" value="15"/>
+					<display_value name="dEntityDamageFire" value="120"/>
+				<display_value name="dDuration" value="14"/>
 			</effect_group>
 		</item>
 
@@ -98,6 +100,7 @@
 			<property name="DisplayType" value="ammoBulletIncendiary"/>
 			<property name="EconomicValue" value="12"/>
 			<property name="TraderStageTemplate" value="ammoTier3"/>
+			<property name="Damage_type" value="Heat"/>
 			<property name="DescriptionKey" value="ammoIncendiaryGroupDesc"/>
 			<property name="UnlockedBy" value="perkPistolPeteHPAmmo"/> <!-- BOOK_PERK -->
 			
@@ -108,17 +111,17 @@
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
 				
-				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="16">
+				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="14">
 					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="0"/></triggered_effect>
-				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="17">
+				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="15">
 					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
 
 				<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffBurningFlamingArrow">
 					<requirement name="CVarCompare" target="other" cvar="_underwater" operation="LT" value="0.3"/>
 				</triggered_effect>
 
-				<display_value name="dEntityDamageFire" value="150"/>
-				<display_value name="dDuration" value="15"/>
+					<display_value name="dEntityDamageFire" value="120"/>
+				<display_value name="dDuration" value="14"/>
 			</effect_group>
 		</item>
 		
@@ -130,6 +133,7 @@
 			<property name="DisplayType" value="ammoBulletIncendiary"/>
 			<property name="EconomicValue" value="16"/>
 			<property name="TraderStageTemplate" value="ammoTier3"/>
+			<property name="Damage_type" value="Heat"/>
 			<property name="DescriptionKey" value="ammoIncendiaryGroupDesc"/>
 			<property name="UnlockedBy" value="perkSniperHPAmmo"/> <!-- BOOK_PERK -->
 			
@@ -140,17 +144,17 @@
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
 				
-				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="16">
+				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="14">
 					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="0"/></triggered_effect>
-				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="17">
+				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="15">
 					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
 
 				<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffBurningFlamingArrow">
 					<requirement name="CVarCompare" target="other" cvar="_underwater" operation="LT" value="0.3"/>
 				</triggered_effect>
 
-				<display_value name="dEntityDamageFire" value="150"/>
-				<display_value name="dDuration" value="15"/>
+					<display_value name="dEntityDamageFire" value="120"/>
+				<display_value name="dDuration" value="14"/>
 			</effect_group>
 		</item>
 
