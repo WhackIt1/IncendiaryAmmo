@@ -1,10 +1,10 @@
 Key,english
-ammoShotgunShellIncendiary, "Shotgun Shell, Incendiary (Ammo)"
-ammoBundleShotgunShellIncendiary,Box of Incendiary Shotgun Shells (100)
+ammoShotgunShellIncendiary,"Shotgun Shell, Incendiary (Ammo)"
+ammoBundleShotgunShellIncendiary,"Box of Incendiary Shotgun Shells (100)"
 ammo44MagnumBulletIncendiary,".44 Magnum Round, Incendiary (Ammo)"
-ammoBundle44MagnumBulletIncendiary,Box of 9mm Ammo (100)
+ammoBundle44MagnumBulletIncendiary,"Box of Incendiary .44 Ammo (100)"
 ammo9mmBulletIncendiary,"9mm Round, Incendiary (Ammo)"
-ammoBundle9mmBulletIncendiary,Box of 9mm Ammo (100)
+ammoBundle9mmBulletIncendiary,"Box of Incendiary 9mm Ammo (100)"
 ammo762mmBulletIncendiary,"7.62mm Round, Incendiary (Ammo)"
 ammoBundle762mmBulletIncendiary,Box of Incendiary 7.62mm Ammo (100)
 ammoIncendiaryGroupDesc,Incendiary ammunition sets enemies on fire

@@ -41,7 +41,7 @@
 
 		<recipe name="ammo44MagnumBulletIncendiary" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
 			<ingredient name="resourceBulletTip" count="1"/>
-			<ingredient name="resourceGunPowder" count="1"/>
+			<ingredient name="resourceGunPowder" count="2"/>
 			<ingredient name="resourcePhosphorusPowder" count="1"/>
 			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
@@ -55,12 +55,12 @@
 		
 		<recipe name="ammo762mmBulletIncendiary" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
 			<ingredient name="resourceBulletTip" count="1"/>
-			<ingredient name="resourceGunPowder" count="1"/>
+			<ingredient name="resourceGunPowder" count="3"/>
 			<ingredient name="resourcePhosphorusPowder" count="1"/>
 			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
 		
-		<recipe name="ammoBundle762mmBulletBall" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<recipe name="ammoBundle762mmBulletIncendiary" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
 			<ingredient name="resourceBulletTip" count="80"/>
 			<ingredient name="resourceGunPowder" count="240"/>
 			<ingredient name="resourcePhosphorusPowder" count="80"/>

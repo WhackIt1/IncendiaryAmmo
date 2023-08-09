@@ -178,7 +178,7 @@
 			<property name="TraderStageTemplate" value="ammoTier1"/>
 			
 			<property class="Action0">
-				<property name="Create_item" value="ammoShotgunShell"/>
+				<property name="Create_item" value="ammoShotgunShellIncendiary"/>
 			</property>
 		</item>
 		
@@ -191,7 +191,7 @@
 			<property name="TraderStageTemplate" value="ammoTier1"/>
 			
 			<property class="Action0">
-				<property name="Create_item" value="ammo762mmBullet"/>
+				<property name="Create_item" value="ammo762mmBulletIncendiary"/>
 			</property>
 		</item>
 		
@@ -204,7 +204,7 @@
 			<property name="TraderStageTemplate" value="ammoTier1"/>
 			
 			<property class="Action0">
-				<property name="Create_item" value="ammo9mmBullet"/>
+				<property name="Create_item" value="ammo9mmBulletIncendiary"/>
 			</property>
 		</item>
 		
@@ -217,7 +217,7 @@
 			<property name="TraderStageTemplate" value="ammoTier1"/>
 			
 			<property class="Action0">
-				<property name="Create_item" value="ammo44MagnumBullet"/>
+				<property name="Create_item" value="ammo44MagnumBulletIncendiary"/>
 			</property>
 		</item>
 
