@@ -171,7 +171,7 @@
 		
 		<item name="ammoBundleShotgunShellIncendiary">
 			<property name="Extends" value="ammoBundleMaster"/>
-			<property name="CustomIcon" value="ammoShotgunShellIncendiary"/>
+			<property name="CustomIcon" value="ammoShotgunShell"/>
 			<property name="CustomIconTint" value="FF9999"/>
 			<property name="EconomicValue" value="1100"/>
 			<property name="UnlockedBy" value="perkShotgunMessiahComplete"/> <!-- BOOK_PERK -->
@@ -184,7 +184,7 @@
 		
 		<item name="ammoBundle762mmBulletIncendiary">
 			<property name="Extends" value="ammoBundleMaster"/>
-			<property name="CustomIcon" value="ammo762mmBulletIncendiary"/>
+			<property name="CustomIcon" value="ammo762mmBulletBall"/>
 			<property name="CustomIconTint" value="FF9999"/>
 			<property name="EconomicValue" value="1100"/>
 			<property name="UnlockedBy" value="perkSniperComplete"/> <!-- BOOK_PERK -->
@@ -197,7 +197,7 @@
 		
 		<item name="ammoBundle9mmBulletIncendiary">
 			<property name="Extends" value="ammoBundleMaster"/>
-			<property name="CustomIcon" value="ammo9mmBulletIncendiary"/>
+			<property name="CustomIcon" value="ammo9mmBulletBall"/>
 			<property name="CustomIconTint" value="FF9999"/>
 			<property name="EconomicValue" value="1100"/>
 			<property name="UnlockedBy" value="perkPistolPeteComplete"/> <!-- BOOK_PERK -->
@@ -210,7 +210,7 @@
 		
 		<item name="ammoBundle44MagnumBulletIncendiary">
 			<property name="Extends" value="ammoBundleMaster"/>
-			<property name="CustomIcon" value="ammo44MagnumBulletIncendiary"/>
+			<property name="CustomIcon" value="ammo44MagnumBulletBall"/>
 			<property name="CustomIconTint" value="FF9999"/>
 			<property name="EconomicValue" value="1100"/>
 			<property name="UnlockedBy" value="perkEnforcerComplete"/> <!-- BOOK_PERK -->
