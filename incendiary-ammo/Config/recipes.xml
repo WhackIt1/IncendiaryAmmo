@@ -46,7 +46,7 @@
 			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
 		
-		<recipe name="ammoBundle44MagnumBulletBIncendiary" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<recipe name="ammoBundle44MagnumBulletIncendiary" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
 			<ingredient name="resourceBulletTip" count="80"/>
 			<ingredient name="resourceGunPowder" count="160"/>
 			<ingredient name="resourcePhosphorusPowder" count="80"/>
