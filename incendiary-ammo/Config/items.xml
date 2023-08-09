@@ -4,13 +4,24 @@
 		<item name="resourcePhosphorusPowder">
 			<property name="HoldType" value="45"/>
 			<property name="CustomIcon" value="resourceGunPowder"/>
-			<property name="CustomIconTint" value="EEEEEE"/>
+			<property name="CustomIconTint" value="FFFFFF"/>
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 			<property name="Material" value="Mdirt"/>
 			<property name="Stacknumber" value="1000"/> <!-- STK resource -->
 			<property name="EconomicValue" value="20"/>
 			<property name="EconomicBundleSize" value="10"/>
+			<property name="Group" value="Resources,Chemicals,CFChemicals"/>
+		</item>
+		
+		<item name="resourcePhosphorusPowderBundle">
+			<property name="Extends" value="resourceRockSmallBundle"/>
+			<property name="CustomIcon" value="resourceGunPowder"/>
+			<property name="UnlockedBy" value="craftingExplosives"/><!-- perkDemolitionsExpert -->
+			<property class="Action0">
+				<property name="Create_item" value="resourceGunPowder"/>
+				<property name="Create_item_count" value="1000"/>
+			</property>
 			<property name="Group" value="Resources,Chemicals,CFChemicals"/>
 		</item>
 
@@ -156,6 +167,58 @@
 					<display_value name="dEntityDamageFire" value="120"/>
 				<display_value name="dDuration" value="14"/>
 			</effect_group>
+		</item>
+		
+		<item name="ammoBundleShotgunShellIncendiary">
+			<property name="Extends" value="ammoBundleMaster"/>
+			<property name="CustomIcon" value="ammoShotgunShellIncendiary"/>
+			<property name="CustomIconTint" value="FF9999"/>
+			<property name="EconomicValue" value="1100"/>
+			<property name="UnlockedBy" value="perkShotgunMessiahComplete"/> <!-- BOOK_PERK -->
+			<property name="TraderStageTemplate" value="ammoTier1"/>
+			
+			<property class="Action0">
+				<property name="Create_item" value="ammoShotgunShell"/>
+			</property>
+		</item>
+		
+		<item name="ammoBundle762mmBulletIncendiary">
+			<property name="Extends" value="ammoBundleMaster"/>
+			<property name="CustomIcon" value="ammo762mmBulletIncendiary"/>
+			<property name="CustomIconTint" value="FF9999"/>
+			<property name="EconomicValue" value="1100"/>
+			<property name="UnlockedBy" value="perkSniperComplete"/> <!-- BOOK_PERK -->
+			<property name="TraderStageTemplate" value="ammoTier1"/>
+			
+			<property class="Action0">
+				<property name="Create_item" value="ammo762mmBullet"/>
+			</property>
+		</item>
+		
+		<item name="ammoBundle9mmBulletIncendiary">
+			<property name="Extends" value="ammoBundleMaster"/>
+			<property name="CustomIcon" value="ammo9mmBulletIncendiary"/>
+			<property name="CustomIconTint" value="FF9999"/>
+			<property name="EconomicValue" value="1100"/>
+			<property name="UnlockedBy" value="perkPistolPeteComplete"/> <!-- BOOK_PERK -->
+			<property name="TraderStageTemplate" value="ammoTier1"/>
+			
+			<property class="Action0">
+				<property name="Create_item" value="ammo9mmBullet"/>
+			</property>
+		</item>
+		
+		<item name="ammoBundle44MagnumBulletIncendiary">
+			<property name="Extends" value="ammoBundleMaster"/>
+			<property name="CustomIcon" value="ammo44MagnumBulletIncendiary"/>
+			<property name="CustomIconTint" value="FF9999"/>
+			<property name="EconomicValue" value="1100"/>
+			<property name="UnlockedBy" value="perkEnforcerComplete"/> <!-- BOOK_PERK -->
+			<property name="TraderStageTemplate" value="ammoTier1"/>
+			
+			<property class="Action0">
+				<property name="Create_item" value="ammo44MagnumBullet"/>
+			</property>
 		</item>
 
 	</append>

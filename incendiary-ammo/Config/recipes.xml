@@ -1,16 +1,28 @@
 <config>
 	<append xpath="/recipes">
 	
-		<recipe name="resourcePhosphorusPowder" count="1" craft_area="workbench" tags="learnable,chemStationCrafting">
+		<recipe name="resourcePhosphorusPowder" count="1" craft_area="chemistryStation" tags="chemStationCrafting">
 			<ingredient name="resourceCrushedSand" count="6"/>
 			<ingredient name="resourceRockSmall" count="3"/>
 		</recipe>
 		
+		<recipe name="resourcePhosphorusPowderBundle" count="1" craft_time="2700" craft_area="chemistryStation" tags="learnable,chemStationCrafting">
+			<ingredient name="resourceCrushedSand" count="4800"/>
+			<ingredient name="resourceCrushedSand" count="2400"/>
+		</recipe>
+		
 		<recipe name="ammoShotgunShellIncendiary" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
 			<ingredient name="resourceBuckshot" count="1"/>
-			<ingredient name="resourceGunPowder" count="1"/>
+			<ingredient name="resourceGunPowder" count="4"/>
 			<ingredient name="resourcePhosphorusPowder" count="1"/>
 			<ingredient name="resourceScrapPolymers" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoBundleShotgunShellIncendiary" count="1" craft_time="540" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceBuckshot" count="80"/>
+			<ingredient name="resourceGunPowder" count="400"/>
+			<ingredient name="resourcePhosphorusPowder" count="80"/>
+			<ingredient name="resourceScrapPolymers" count="80"/>
 		</recipe>
 		
 		<recipe name="ammo9mmBulletIncendiary" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
@@ -18,6 +30,13 @@
 			<ingredient name="resourceGunPowder" count="1"/>
 			<ingredient name="resourcePhosphorusPowder" count="1"/>
 			<ingredient name="resourceBulletCasing" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoBundle9mmBulletIncendiary" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceBulletTip" count="80"/>
+			<ingredient name="resourceGunPowder" count="80"/>
+			<ingredient name="resourcePhosphorusPowder" count="80"/>
+			<ingredient name="resourceBulletCasing" count="80"/>
 		</recipe>
 
 		<recipe name="ammo44MagnumBulletIncendiary" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
@@ -27,12 +46,27 @@
 			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
 		
+		<recipe name="ammoBundle44MagnumBulletBIncendiary" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceBulletTip" count="80"/>
+			<ingredient name="resourceGunPowder" count="160"/>
+			<ingredient name="resourcePhosphorusPowder" count="80"/>
+			<ingredient name="resourceBulletCasing" count="80"/>
+		</recipe>
+		
 		<recipe name="ammo762mmBulletIncendiary" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
 			<ingredient name="resourcePhosphorusPowder" count="1"/>
 			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
+		
+		<recipe name="ammoBundle762mmBulletBall" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceBulletTip" count="80"/>
+			<ingredient name="resourceGunPowder" count="240"/>
+			<ingredient name="resourcePhosphorusPowder" count="80"/>
+			<ingredient name="resourceBulletCasing" count="80"/>
+		</recipe>
+		
 	</append>
 </config>
 
