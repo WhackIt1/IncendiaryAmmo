@@ -1,5 +1,5 @@
 <khaine>
-	<!-- Adding Steel Ammo to ui_display so stats display correctly -->
+	<!-- Adding Incendiary Ammo to ui_display so stats display -->
 	<append xpath="/ui_display_info/item_display">
 		<item_display_info display_type="ammoBulletIncendiary" display_group="groupAmmo">
 			<display_entry name="EntityDamage" title_key="statEntityDamageRanged"/>

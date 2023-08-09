@@ -1,7 +1,7 @@
 <config>
 	<append xpath="/recipes">
 	
-		<recipe name="resourcePhosphorus" count="1" craft_area="workbench" tags="learnable,chemStationCrafting">
+		<recipe name="resourcePhosphorusPowder" count="1" craft_area="workbench" tags="learnable,chemStationCrafting">
 			<ingredient name="resourceCrushedSand" count="6"/>
 			<ingredient name="resourceRockSmall" count="3"/>
 		</recipe>
@@ -9,28 +9,28 @@
 		<recipe name="ammoShotgunShellIncendiary" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
 			<ingredient name="resourceBuckshot" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
-			<ingredient name="resourcePhosphorus" count="1"/>
+			<ingredient name="resourcePhosphorusPowder" count="1"/>
 			<ingredient name="resourceScrapPolymer" count="1"/>
 		</recipe>
 		
 		<recipe name="ammo9mmBulletIncendiary" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
-			<ingredient name="resourcePhosphorus" count="1"/>
+			<ingredient name="resourcePhosphorusPowder" count="1"/>
 			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
 
 		<recipe name="ammo44MagnumBulletIncendiary" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
-			<ingredient name="resourcePhosphorus" count="1"/>
+			<ingredient name="resourcePhosphorusPowder" count="1"/>
 			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
 		
 		<recipe name="ammo762mmBulletIncendiary" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
 			<ingredient name="resourceBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="1"/>
-			<ingredient name="resourcePhosphorus" count="1"/>
+			<ingredient name="resourcePhosphorusPowder" count="1"/>
 			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
 	</append>

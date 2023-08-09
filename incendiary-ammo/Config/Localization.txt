@@ -3,4 +3,6 @@ ammoShotgunShellIncendiary, "Shotgun Shell, Incendiary (Ammo)"
 ammo44MagnumBulletIncendiary,".44 Magnum Round, Incendiary (Ammo)"
 ammo9mmBulletIncendiary,"9mm Round, Incendiary (Ammo)"
 ammo762mmBulletIncendiary,"7.62mm Round, Incendiary (Ammo)"
-ammoIncendiaryCasedGroupDesc,Incendiary ammunition sets enemies on fire.
+ammoIncendiaryGroupDesc,Incendiary ammunition sets enemies on fire
+resourcePhosphorusPowder,"Phosphorus Powder"
+resourcePhosphorusPowderDesc,Phosphorus Powder used in the manufacturing of incendiary rounds.
