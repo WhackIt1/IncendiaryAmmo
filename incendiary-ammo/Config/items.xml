@@ -42,12 +42,12 @@
 				<passive_effect name="SpreadMultiplierRunning" operation="perc_add" value=".3" tags="perkBoomstick"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
 				
-				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="14">
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="14">
 					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="0"/></triggered_effect>
-				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="15">
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="15">
 					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
 
-				<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffBurningFlamingArrow">
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffBurningFlamingArrow">
 					<requirement name="CVarCompare" target="other" cvar="_underwater" operation="LT" value="0.3"/>
 				</triggered_effect>
 
@@ -78,12 +78,12 @@
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
 				
-				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="14">
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="14">
 					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="0"/></triggered_effect>
-				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="15">
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="15">
 					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
 
-				<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffBurningFlamingArrow">
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffBurningFlamingArrow">
 					<requirement name="CVarCompare" target="other" cvar="_underwater" operation="LT" value="0.3"/>
 				</triggered_effect>
 
@@ -111,12 +111,12 @@
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
 				
-				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="14">
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="14">
 					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="0"/></triggered_effect>
-				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="15">
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="15">
 					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
 
-				<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffBurningFlamingArrow">
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffBurningFlamingArrow">
 					<requirement name="CVarCompare" target="other" cvar="_underwater" operation="LT" value="0.3"/>
 				</triggered_effect>
 
@@ -144,12 +144,12 @@
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
 				
-				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="14">
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="14">
 					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="0"/></triggered_effect>
-				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="15">
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="15">
 					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
 
-				<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffBurningFlamingArrow">
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffBurningFlamingArrow">
 					<requirement name="CVarCompare" target="other" cvar="_underwater" operation="LT" value="0.3"/>
 				</triggered_effect>
 
