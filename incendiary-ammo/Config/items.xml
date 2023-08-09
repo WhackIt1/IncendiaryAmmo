@@ -55,7 +55,7 @@
 		</effect_group>
 	</item>
 	
-	<item name="ammo44MagnumIncendiary">
+	<item name="ammo44MagnumBulletIncendiary">
 		<property name="Extends" value="ammo44MagnumBall"/>
 		<property name="Tags" value="ammo9mm"/>
 		<property name="CustomIcon" value="ammo44MagnumHP"/>
@@ -66,7 +66,7 @@
 		<property name="DescriptionKey" value="ammoIncendiaryGroupDesc"/>
 		<property name="UnlockedBy" value="perkPistolPeteHPAmmo"/> <!-- BOOK_PERK -->
 		
-		<effect_group name="ammo44MagnumIncendiary" tiered="false">
+		<effect_group name="ammo44MagnumBulletIncendiary" tiered="false">
 			<passive_effect name="EntityDamage" operation="base_set" value="70" tags="perkGunslinger,revolver"/>
 			<passive_effect name="BlockDamage" operation="base_set" value="12" tags="perkGunslinger"/>
 			<passive_effect name="BlockDamage" operation="base_add" value="12" tags="barrelExplosive"/>
