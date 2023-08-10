@@ -7,7 +7,7 @@
 		</recipe>
 		
 		<recipe name="resourcePhosphorusPowderBundle" count="1" craft_time="2700" craft_area="chemistryStation" tags="learnable,chemStationCrafting">
-			<ingredient name="resourceSmallRock" count="4800"/>
+			<ingredient name="resourceRockSmall" count="4800"/>
 			<ingredient name="resourceCrushedSand" count="2400"/>
 		</recipe>
 		
