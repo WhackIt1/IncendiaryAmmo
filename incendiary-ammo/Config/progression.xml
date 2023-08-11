@@ -8,7 +8,7 @@
 	<append xpath="/progression/perks/book[@name='perkPistolPeteComplete']/effect_group/passive_effect[@level='1']/@tags">,ammoBundle9mmBulletIncendiary</append>
 	<append xpath="/progression/perks/book[@name='perkEnforcerComplete']/effect_group/passive_effect[@level='1']/@tags">,ammoBundle44MagnumBulletIncendiary</append>
 	<append xpath="/progression/perks/book[@name='perkSniperComplete']/effect_group/passive_effect[@level='1']/@tags">,ammoBundle762mmBulletIncendiary</append>
-	<setattribute xpath="/progression/crafting_skills/crafting_skill[@name='craftingExplosives']/display_entry[@icon='ammoRocketFrag']/unlock_entry/@item">,resourcePhosphorusPowderBundle</setattribute>
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingExplosives']/display_entry[@icon='ammoRocketFrag']/unlock_entry/@item">,resourcePhosphorusPowderBundle</append>
 	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingExplosives']/effect_group">
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="45,100" value="1" tags="resourcePhosphorusPowderBundle"/>	
 	</append>
