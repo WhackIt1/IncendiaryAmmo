@@ -26,8 +26,6 @@
 		<item name="ammoShotgunShellIncendiary">
 			<property name="Extends" value="ammoShotgunShell"/>
 			<property name="Tags" value="ammo,shotgun,ammoShells"/>
-			<property name="CustomIcon" value="ammoShotgunShell"/>
-			<property name="CustomIconTint" value="FF9999"/>
 			<property name="DisplayType" value="ammoBulletIncendiary"/>
 			<property name="EconomicValue" value="12"/>
 			<property name="TraderStageTemplate" value="ammoTier3"/>
@@ -68,8 +66,6 @@
 		<item name="ammo44MagnumBulletIncendiary">
 			<property name="Extends" value="ammo44MagnumBulletBall"/>
 			<property name="Tags" value="ammo44Mag"/>
-			<property name="CustomIcon" value="ammo44MagnumBulletHP"/>
-			<property name="CustomIconTint" value="FF9999"/>
 			<property name="DisplayType" value="ammoBulletIncendiary"/>
 			<property name="EconomicValue" value="12"/>
 			<property name="TraderStageTemplate" value="ammoTier3"/>
@@ -104,8 +100,6 @@
 		<item name="ammo9mmBulletIncendiary">
 			<property name="Extends" value="ammo9mmBulletBall"/>
 			<property name="Tags" value="ammo9mm"/>
-			<property name="CustomIcon" value="ammo9mmBulletHP"/>
-			<property name="CustomIconTint" value="FF9999"/>
 			<property name="DisplayType" value="ammoBulletIncendiary"/>
 			<property name="EconomicValue" value="12"/>
 			<property name="TraderStageTemplate" value="ammoTier3"/>
@@ -137,8 +131,6 @@
 		<item name="ammo762mmBulletIncendiary">
 			<property name="Extends" value="ammo762mmBulletBall"/>
 			<property name="Tags" value="ammo762mm"/>
-			<property name="CustomIcon" value="ammo762mmBulletHP"/>
-			<property name="CustomIconTint" value="FF9999"/>
 			<property name="DisplayType" value="ammoBulletIncendiary"/>
 			<property name="EconomicValue" value="16"/>
 			<property name="TraderStageTemplate" value="ammoTier3"/>
@@ -169,8 +161,7 @@
 		
 		<item name="ammoBundleShotgunShellIncendiary">
 			<property name="Extends" value="ammoBundleMaster"/>
-			<property name="CustomIcon" value="ammoShotgunShell"/>
-			<property name="CustomIconTint" value="FF9999"/>
+			<property name="CustomIcon" value="ammoShotgunShellIncendiary"/>
 			<property name="EconomicValue" value="1100"/>
 			<property name="UnlockedBy" value="perkShotgunMessiahComplete"/> <!-- BOOK_PERK -->
 			<property name="TraderStageTemplate" value="ammoTier1"/>
@@ -182,8 +173,7 @@
 		
 		<item name="ammoBundle762mmBulletIncendiary">
 			<property name="Extends" value="ammoBundleMaster"/>
-			<property name="CustomIcon" value="ammo762mmBulletBall"/>
-			<property name="CustomIconTint" value="FF9999"/>
+			<property name="CustomIcon" value="ammo762mmBulletIncendiary"/>
 			<property name="EconomicValue" value="1100"/>
 			<property name="UnlockedBy" value="perkSniperComplete"/> <!-- BOOK_PERK -->
 			<property name="TraderStageTemplate" value="ammoTier1"/>
@@ -195,8 +185,7 @@
 		
 		<item name="ammoBundle9mmBulletIncendiary">
 			<property name="Extends" value="ammoBundleMaster"/>
-			<property name="CustomIcon" value="ammo9mmBulletBall"/>
-			<property name="CustomIconTint" value="FF9999"/>
+			<property name="CustomIcon" value="ammo9mmBulletIncendiary"/>
 			<property name="EconomicValue" value="1100"/>
 			<property name="UnlockedBy" value="perkPistolPeteComplete"/> <!-- BOOK_PERK -->
 			<property name="TraderStageTemplate" value="ammoTier1"/>
@@ -208,8 +197,7 @@
 		
 		<item name="ammoBundle44MagnumBulletIncendiary">
 			<property name="Extends" value="ammoBundleMaster"/>
-			<property name="CustomIcon" value="ammo44MagnumBulletBall"/>
-			<property name="CustomIconTint" value="FF9999"/>
+			<property name="CustomIcon" value="ammo44MagnumBulletIncendiary"/>
 			<property name="EconomicValue" value="1100"/>
 			<property name="UnlockedBy" value="perkEnforcerComplete"/> <!-- BOOK_PERK -->
 			<property name="TraderStageTemplate" value="ammoTier1"/>
